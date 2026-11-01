@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="my">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>For သိမ့် ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background"></div>
+
+    <!-- Dark cinematic overlay -->
+    <div class="overlay"></div>
+
+    <!-- Light glow -->
+    <div class="glow"></div>
+
+    <!-- Floating hearts -->
+    <div id="heart-container"></div>
+
+    <!-- Rose petals -->
+    <div id="petal-container"></div>
+
+
+    <!-- NAVBAR -->
+    <header>
+
+        <div class="logo">
+            ♡ <span>For Someone Special</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#message">Message</a>
+            <a href="#forever">Forever</a>
+        </nav>
+
+        <div class="nav-heart">
+            ♥
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main id="home">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    ✦ FOR SOMEONE SPECIAL ✦
+                </p>
+
+
+                <h1>
+                    I Love You
+                    <span>♡</span>
+                </h1>
+
+
+                <div class="name">
+                    သိမ့်
+                </div>
+
+
+                <div class="divider">
+                    <span>♥</span>
+                    <div></div>
+                    <span>♥</span>
+                    <div></div>
+                    <span>♥</span>
+                </div>
+
+
+                <p class="message" id="message">
+                    မင်းက ငါ့ဘဝထဲက
+                    လူတစ်ယောက်တင်မဟုတ်ဘူး။
+                    <br>
+
+                    ငါ့ရဲ့ကမ္ဘာလေးကို
+                    ပိုလှပစေတဲ့သူတစ်ယောက်ပါ။ ❤️
+                </p>
+
+
+                <p class="english-message">
+                    You are not just someone in my life.
+                    <br>
+                    You are the person who makes
+                    my world more beautiful.
+                </p>
+
+
+                <button
+                    class="love-button"
+                    onclick="openLetter()"
+                >
+                    <span>♥</span>
+                    Open My Heart
+                    <b>›</b>
+                </button>
+
+
+                <p class="forever" id="forever">
+                    ─────── ♥ ───────
+                    <br>
+                    Forever with you
+                    <span>♥</span>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- LOVE LETTER MODAL -->
+
+    <div
+        class="modal"
+        id="loveModal"
+    >
+
+        <div class="letter">
+
+            <button
+                class="close"
+                onclick="closeLetter()"
+            >
+                ×
+            </button>
+
+
+            <div class="letter-heart">
+                ♥
+            </div>
+
+
+            <p class="letter-small">
+                A LITTLE MESSAGE FOR YOU
+            </p>
+
+
+            <h2>
+                Dear သိမ့် ❤️
+            </h2>
+
+
+            <div class="letter-line"></div>
+
+
+            <p>
+                မင်းကိုတွေ့ပြီးနောက်ပိုင်း
+                သာမန်နေ့ရက်တွေတောင်
+                အဓိပ္ပါယ်ရှိလာသလို ခံစားရတယ်။
+            </p>
+
+
+            <p>
+                မင်းရဲ့အပြုံးလေးတစ်ခုက
+                ငါ့ရဲ့နေ့တစ်နေ့လုံးကို
+                ပိုကောင်းသွားစေနိုင်တယ်။
+            </p>
+
+
+            <p>
+                ဘယ်လောက်ဝေးဝေး
+                ဘယ်လောက်ကြာကြာ
+                မင်းကိုချစ်တဲ့စိတ်ကတော့
+                ပြောင်းလဲသွားမှာမဟုတ်ဘူး။
+            </p>
+
+
+            <p class="chinese">
+                我爱你， သိမ့် ❤️
+            </p>
+
+
+            <p class="final-love">
+                I love you. ❤️
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bottom music button -->
+
+    <button
+        class="music-button"
+        onclick="toggleMusic()"
+        id="musicButton"
+    >
+        ♪
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
